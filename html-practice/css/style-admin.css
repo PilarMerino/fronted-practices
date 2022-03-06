@@ -1,0 +1,179 @@
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  body {
+    background-color: rgb(186, 226, 245);
+  }
+  .logo {
+    position: absolute;
+    display: block;
+    width: 235px;
+    height: 235px;
+    top: 6px;
+    left: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .logo-pastry {
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 80px;
+    top: 62px;
+    right: 170px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+    /* Estilo de header */
+header {
+      background-color: rgb(240, 228, 232);
+      padding: 50px;
+      text-align: center;
+      font-size: 35px;
+      color: rgb(230, 138, 138);
+      font-family: "Acme", sans-serif;
+      border-radius: 3px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(219, 86, 86);
+    box-shadow: 0 1px 5px 1px purple;
+  }
+  
+  li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li {
+    float: left;
+  }
+  
+  #description {
+    text-align: justify;
+  }
+  .card:hover{
+      transition: 0.3s ease-in;
+  
+      box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+      transform: translateY(-15px);
+  }
+  .h2 {
+    font-family: "Acme", sans-serif;
+    color: rgb(12, 182, 77);
+    text-align: center;
+  }
+  hr {
+    border: 0; 
+    height: 0; 
+    box-shadow: 0 1px 5px 1px rgb(240, 122, 224);
+  }
+  .hr-doble-linea {
+    border: 0; height: 2px; border-top: 1px dashed purple; border-bottom: 1px dashed black;
+  }
+  .active {
+    color: #5dc2ee;
+    font-weight: 700;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  .main-div {
+    height: 100px;
+  }
+  
+  .input-toppings{
+    height: 20px;
+    width: 20px;
+    border-color: crimson;
+  }
+  .input-data{
+    height: 30px;
+    width: 200px;
+    border-color: crimson;
+    border-radius: 20px;
+  }
+  
+  button {
+    border-radius: 15px;
+    border-color: darksalmon;
+    background-color: rgb(247, 133, 92);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 9px #999;
+    font-size: 24px;
+  }
+  
+  .container-toppings{
+    display: inline;
+    padding-left:3px;
+    padding-right:3px;
+    float: left;
+  }
+  
+  div.img {
+    margin: 5px;
+    border: 2px solid rgb(228, 62, 228);
+    float: left;
+    width: 200px;
+    box-shadow: 0 1px 5px 1px  rgb(228, 62, 228);
+  }	
+  
+  div.img:hover {
+    border: 1px solid #777;
+  }
+  
+  div.img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc, .label-pastel {
+    padding: 15px;
+    text-align: center;
+    font: oblique bold 120% cursive;
+    box-shadow: 0 1px 5px 1px purple;
+  }
+  
+  .label-data {
+    padding: 7px;
+    text-align: center;
+    font: oblique bold 120% cursive;
+    box-shadow: 0 1px 3px 1px gold;
+  }
+  .price {
+    padding: 15px;
+    text-align: center;
+    font: small-caps 100%/200% serif;
+    color: rgb(91, 21, 170);
+  }
+
+table { 
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    
+    margin: 45px;     
+    width: 480px; 
+    text-align: left;    
+    border-collapse: collapse;
+    align-self: center;
+ }
+
+th { 
+    font-size: 15px;     
+    font-weight:200px;     
+    padding: 8px;     
+    background: #7bffe2;
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff;
+    color: rgb(153, 0, 145);
+    text-align: center;
+ }
+
+td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: #339; }
